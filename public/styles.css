@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    font-family: 'Noto Sans Linear A', sans-serif;
+}
+body{
+    color:white;
+    background-color: #00ffb7;
+}
+html,body {
+    height:100%;
+}
+
+.section-header{
+    padding-top:1rem;
+    text-align:center;
+    height:10%;
+    background-color: #00d69a;
+}
+
+.section-content{
+    display:flex;
+    height:90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-containers{
+    background-color: #ff0048;
+    width:40%;
+    box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(0,0,0,0.4);
+    border-radius:1rem;
+    margin-top: 2rem;
+}
+
+.forms-div{
+    padding:3rem 4rem;
+    max-width: 15rem;
+}
+
+.table-div{
+    text-align:center;
+    padding:0.25rem;
+    height:auto;
+}
+
+.table-div li{
+    display: inline;
+}
+
+
+.music-div{
+    text-align:center;
+    height:15%;
+    padding:0px;
+}
+
+.buttons{
+
+}
+
+.buttons-music{
+
+}
