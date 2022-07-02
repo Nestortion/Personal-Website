@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
     <title>Person registration</title>
 </head>
 <body>
@@ -13,31 +14,37 @@
     </section>
     <section class="section-content">
         <div class="content-containers forms-div">
-            <form action="">
+            <form action="person" method="POST">
                 <div>REGISTER A PERSON</div>
-                Name <input type="text">
+                Name <input name="Name" id="name" type="text">
                 <br>
-                Age <input type="text">
+                Age <input name="Age" id="age" type="number">
                 <br>
-                Nationality <input type="text">
+                Nationality <input name="Nationality" id="nationality" type="text">
                 <br>
-                Motto <input type="text">
+                Motto <input name="Motto" id="motto" type="text">
                 <br>
+                <button role="button" class="register-button">
+                    Register
+                </button>
                 <button type="reset">
                     Clear
                 </button>
-                <button type="submit">
-                    Register
-                </button>
+                
             </form>
+            
         </div>
         <div class="content-containers table-div">
-            <ul>
-                <li>Name</li>
-                <li>Age</li>
-                <li>Nationality</li>
-                <li>Motto</li>
-            </ul>
+
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>nationality</th>
+                    <th>Motto</th>
+                </tr>
+            </table>
+                
         </div>
         <div class="content-containers music-div">
             Want some music?

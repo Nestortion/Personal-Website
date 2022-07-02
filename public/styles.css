@@ -35,11 +35,11 @@ html,body {
     box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(0,0,0,0.4);
     border-radius:1rem;
     margin-top: 2rem;
+    min-width: 15rem;
 }
 
 .forms-div{
     padding:3rem 4rem;
-    max-width: 15rem;
 }
 
 .table-div{
@@ -48,8 +48,8 @@ html,body {
     height:auto;
 }
 
-.table-div li{
-    display: inline;
+th, td{
+    padding: 1rem;
 }
 
 
